@@ -3,7 +3,7 @@ int numberA = int.Parse (Console.ReadLine()!);
 Console.Write ("Введите второе число ");
 int numberB = int.Parse (Console.ReadLine()!);
 Console.Write ("Введите третье число ");
-int numberE = int.Parse (Console.ReadLine()!);
+int numberD = int.Parse (Console.ReadLine()!);
 int max = numberA;
 
 if (numberA > max)
@@ -14,9 +14,9 @@ if (numberB > max)
 {
     max = numberB;
 }
-if (numberE > max)
+if (numberD > max)
 {
-    max = numberE;
+    max = numberD;
 }
 Console.Write ("max = ");
 Console.WriteLine (max);
